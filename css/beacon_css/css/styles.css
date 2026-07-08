@@ -1,0 +1,30 @@
+body:hover{
+    background-color: grey;
+}
+.bacon{
+    background-color: red;
+    width:120px;
+    height:100px;
+    border-radius: 100%;
+}
+
+.brocolli{
+
+    background-color: rgb(71, 179, 0);
+    width:120px;
+    height:100px;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+h1{
+    color :red;
+    font-size: 50px;
+}
+h1:hover{color: gold;}
+img:hover{background-color: gold;}
+p:hover{
+    color: gold;
+}
