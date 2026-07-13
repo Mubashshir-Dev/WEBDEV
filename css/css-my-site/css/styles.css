@@ -5,13 +5,13 @@
   font-style: normal;
 }
 body{
-    color:#40514e;
+    color:#090a0a;
     margin:0px;
     text-align: center;
     font-family: Merriweather,serif;
 }
 .top-container{
-    background-color: #ccecec;
+    background-color: #EAF6f6;
 }
 
 
@@ -107,4 +107,78 @@ h3{
 }
 .middle-container{
     width:100px 0;
+}
+
+
+
+hr {
+  border: none;
+  border-top: 10px dotted #6f8383;
+  height: 0;
+  width:150px ;
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+} 
+
+.profile{
+    margin-top: 100px;;
+}
+.txt{
+    font-size:40px;
+}
+
+.fix{
+    margin-top: 200px;
+}
+
+#myself{
+    color:#090a0a;
+    font-family: serif;
+    line-height: 1.5;
+
+}
+
+.last{
+    margin-bottom: 100px;
+}
+.btn
+{margin: 30px auto;
+background:    #11999e;
+border-radius: 11px;
+padding:       20px 45px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 19px/1 "Open Sans", sans-serif;
+text-align:    center;
+text-decoration: none;}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+a{
+    color : #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.me{
+    margin-top: 0px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    color:#090a0a;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.copyright{
+    color:#ffffff;
+    margin-top:20px;
+    padding: 20px 0px;
 }
