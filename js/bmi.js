@@ -1,7 +1,11 @@
-var weight = prompt("weight in kg : ");
-var height = prompt("height in m^2 : ");
+var weight = prompt(" weight in kg : ");
+var height = prompt(" height in m^2 : ");
 
-var bmi = weight/(height)*(height);
+function bmi_calc(a,b){
+    return Math.round(a/(b)*(b));//math.pow(x,y)>>x^y
+}
+
+var bmi = bmi_calc(weight,height);
 
 console.log("bmi is : "+bmi+" kg/m^2");
 alert("bmi is : "+bmi+" kg/m^2");
