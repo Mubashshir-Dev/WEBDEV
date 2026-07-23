@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color:skyblue;
+}
+
+h3{
+    display: inline;
+}
+
+img{
+    width:200px ;
+    height:200px ;
+}
+
+.dice1{
+    margin-right:200px ;
+
+    
+}
+
+.heading{  
+    font-size: 100px;
+}
+
+.players{
+    height: 60px;
+    margin-bottom: 30px;
+    padding-top:30px ;
+    width: auto;
+}
+
+.p1{
+    margin-right: 350px;
+}
