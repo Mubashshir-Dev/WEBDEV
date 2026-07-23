@@ -3,6 +3,12 @@ body{
     color:skyblue;
 }
 
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 70px;
+    padding-top: 70px;
+}
+
 h3{
     display: inline;
 }
@@ -13,13 +19,13 @@ img{
 }
 
 .dice1{
-    margin-right:200px ;
-
-    
+    margin-right:200px ; 
 }
 
-.heading{  
+.heading{
+    font-family: "Cedarville Cursive", cursive;
     font-size: 100px;
+    font-weight: bold;
 }
 
 .players{

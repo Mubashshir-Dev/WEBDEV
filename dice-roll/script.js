@@ -30,10 +30,10 @@ function winner(){
     change_dice(1,image_gen(p1));
     change_dice(2,image_gen(p2));
     if(p1>p2){
-        change_heading("Winner Player 1");
+        change_heading("🚩 Winner Player 1");
     }
     else if(p1<p2){
-        change_heading("Winner Player 2");
+        change_heading("🚩 Winner Player 2");
 
     }
     else{
