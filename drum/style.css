@@ -29,11 +29,11 @@ h1{
 
 
 .W{
-    background-image: url("image/crash.png");
+    background-image: url("image/tom3.png");
 }
 
 .A{
-    background-image: url("image/kick.png");
+    background-image: url("image/tom4.png");
 }
 
 .S{
@@ -46,8 +46,8 @@ h1{
     background-image: url("image/tom2.png");
 }
 .K{
-    background-image: url("image/tom3.png");
+    background-image: url("image/crash.png");
 }
 .L{
-    background-image: url("image/tom4.png");
+    background-image: url("image/kick.png");
 }

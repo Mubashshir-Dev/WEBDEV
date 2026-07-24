@@ -1,0 +1,42 @@
+hyper terminal
+
+shell is interface between user and kernel to interact
+
+bash Bourne again shell
+
+bash is cli (command line interpreter)
+
+unix unixlike use this shell
+
+mkdir folder_name
+
+ls -a
+
+~ home
+
+cd path(relative,absolute)
+
+.. -> parent dir
+. -> self dir
+
+cd .. go to parent dir
+
+
+touch
+
+rm
+
+pwd
+
+rm * (rem all inside in dir)
+
+rmdir
+
+rm -r dir_name can delete a dir 
+
+
+learnenough.com
+
+rm -rf  (f-> force)
+
+
