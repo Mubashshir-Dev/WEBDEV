@@ -6,15 +6,24 @@ for(var i = 0 ; i < target.length ; i++){
     target[i].addEventListener("click",function (){
 
     var buttonInnerHtml = this.innerHTML;
-    makesound(buttonInnerHtml);});
+    makesound(buttonInnerHtml);
+    click(buttonInnerHtml);});
 };
 
 document.addEventListener("keypress",function(event){
     makesound(event.key);
+    click(event.key);
 });
 
 
+function click(key){
+    var activeButton = document.querySelector(("."+key));
+    activeButton.classList.add("pressed");
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    },100);
 
+}
 
 function makesound(key){
     switch(key){

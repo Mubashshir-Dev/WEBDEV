@@ -28,26 +28,31 @@ h1{
 
 
 
-.W{
+.w{
     background-image: url("image/tom3.png");
 }
 
-.A{
+.a{
     background-image: url("image/tom4.png");
 }
 
-.S{
+.s{
     background-image: url("image/snare.png");
 }
-.D{
+.d{
     background-image: url("image/tom1.png");
 }
-.J{
+.j{
     background-image: url("image/tom2.png");
 }
-.K{
+.k{
     background-image: url("image/crash.png");
 }
-.L{
+.l{
     background-image: url("image/kick.png");
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
 }
